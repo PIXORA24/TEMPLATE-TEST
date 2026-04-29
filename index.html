@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wedding Invite — Abhinand & Ashwathi</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Alex+Brush&family=Cinzel:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="invite-wrapper">
+
+  <!-- ============================================
+       SECTION 1: HERO — Florals + Monogram + Couple
+       ============================================ -->
+  <section class="hero-section">
+
+    <!-- Floral layers (animated) -->
+    <div class="floral-container">
+      <img class="floral-layer layer-both-sides" src="assets/floral/2nd%20side%2C%20both%20side.png" alt="" />
+      <img class="floral-layer layer-side-left"  src="assets/floral/Side%2001.png" alt="" />
+      <img class="floral-layer layer-side-right" src="assets/floral/Side%2002.png" alt="" />
+      <img class="floral-layer layer-mid-left"   src="assets/floral/Middle%20left.png" alt="" />
+      <img class="floral-layer layer-mid-right"  src="assets/floral/middle%20right.png" alt="" />
+      <img class="floral-layer layer-main"       src="assets/floral/Main.png" alt="" />
+    </div>
+
+    <!-- Monogram -->
+    <div class="monogram-wrap">
+      <img class="monogram-frame" src="assets/layers/golden%20frame%201.png" alt="" />
+      <span class="monogram-text">AA</span>
+    </div>
+
+    <!-- Scene: aisle + mandap + couple + stands -->
+    <div class="scene-wrap">
+      <img class="isle-img"   src="assets/layers/isle_v6%201.png" alt="" />
+      <img class="mandap-img" src="assets/layers/Mantap_V3%201.png" alt="" />
+      <img class="couple-img" src="assets/layers/couple%201.png" alt="" />
+      <img class="stands-img" src="assets/layers/Decorative%20stand.png" alt="" />
+    </div>
+
+    <!-- Top section textures -->
+    <img class="texture-top-1" src="assets/layers/Texture_v3%201.png" alt="" />
+    <img class="texture-top-2" src="assets/layers/Texture_v3%202.png" alt="" />
+
+  </section>
+
+  <!-- ============================================
+       SECTION 2: NAMES + SCRATCH + VENUE
+       ============================================ -->
+  <section class="names-section">
+
+    <p class="invite-label">YOU'RE CORDIALLY INVITED<br>TO THE WEDDING OF</p>
+
+    <div class="couple-names">
+      <span class="name-groom">Abhinand Nair</span>
+      <span class="name-and">&</span>
+      <span class="name-bride">Ashwathi Yashwanth</span>
+    </div>
+
+    <!-- Scratch to reveal -->
+    <div class="scratch-section">
+      <p class="scratch-label">SCRATCH TO REVEAL</p>
+      <div class="scratch-wrap">
+        <img class="date-frame-img" src="assets/layers/Date%20reveal%20frame%201.png" alt="" />
+        <div class="date-text-wrap">
+          <p class="date-revealed">29 JUNE 2026, 11:30 AM</p>
+          <p class="date-subtext">WEDDING DATE & TIME</p>
+        </div>
+        <canvas id="scratchCanvas" class="scratch-canvas"></canvas>
+      </div>
+    </div>
+
+    <!-- Venue -->
+    <p class="venue-text"><strong>Venue:</strong> XYZ Kalyana Manadapa,<br>Mangaluru</p>
+
+    <!-- Buttons -->
+    <div class="action-buttons">
+      <a href="https://maps.google.com/?q=XYZ+Kalyana+Manadapa+Mangaluru" target="_blank" class="btn-gold">Directions</a>
+      <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wedding+of+Abhinand+%26+Ashwathi&dates=20260629T060000Z/20260629T180000Z&location=XYZ+Kalyana+Manadapa+Mangaluru" target="_blank" class="btn-gold">Add to Calendar</a>
+    </div>
+
+  </section>
+
+  <!-- ============================================
+       SECTION 3: MEMORY LANE
+       ============================================ -->
+  <section class="memory-section">
+
+    <img class="texture-memory" src="assets/layers/TEXTURE_2_V4%201.png" alt="" />
+
+    <div class="memory-content">
+      <h2 class="memory-title">Moments That Made Us</h2>
+      <p class="memory-desc">Every moment brought us closer. Every memory shaped our story. Here is a glimpse of the journey that led us to forever.</p>
+
+      <div class="clothesline-wrap">
+        <img class="clothesline-img" src="assets/layers/Cloathsline.png" alt="" />
+        <div class="photo-slots">
+          <div class="photo-slot" data-slot="1"><span class="photo-plus">+</span></div>
+          <div class="photo-slot" data-slot="2"><span class="photo-plus">+</span></div>
+          <div class="photo-slot" data-slot="3"><span class="photo-plus">+</span></div>
+          <div class="photo-slot" data-slot="4"><span class="photo-plus">+</span></div>
+          <div class="photo-slot" data-slot="5"><span class="photo-plus">+</span></div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ============================================
+       SECTION 4: WEDDING CELEBRATIONS / EVENTS
+       ============================================ -->
+  <section class="events-section">
+
+    <img class="texture-events" src="assets/layers/TEXTURE_2_V3%201.png" alt="" />
+
+    <div class="events-content">
+      <h2 class="events-title">Wedding Celebrations</h2>
+      <p class="events-subtitle">Come, be a part of our joy</p>
+
+      <div class="event-cards">
+
+        <div class="event-card">
+          <p class="event-date">27 JUNE 2026</p>
+          <h3 class="event-name">Mehendi Ceremony</h3>
+          <p class="event-time">7:00 PM Onwards</p>
+          <p class="event-venue">Kalpavraksha House<br>Pallamajal, Kallagudde,<br>Bantwal</p>
+          <div class="event-buttons">
+            <a href="https://maps.google.com/?q=Kalpavraksha+House+Bantwal" target="_blank" class="btn-gold btn-small">Directions</a>
+            <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Mehendi+Ceremony&dates=20260627T133000Z/20260627T180000Z&location=Kalpavraksha+House+Bantwal" target="_blank" class="btn-gold btn-small">Add to Calendar</a>
+          </div>
+        </div>
+
+        <div class="event-card">
+          <p class="event-date">28 JUNE 2026</p>
+          <h3 class="event-name">Sangeet Ceremony</h3>
+          <p class="event-time">8:00 PM Onwards</p>
+          <p class="event-venue">Kalpavraksha House<br>Pallamajal, Kallagudde,<br>Bantwal</p>
+          <div class="event-buttons">
+            <a href="https://maps.google.com/?q=Kalpavraksha+House+Bantwal" target="_blank" class="btn-gold btn-small">Directions</a>
+            <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Sangeet+Ceremony&dates=20260628T143000Z/20260628T180000Z&location=Kalpavraksha+House+Bantwal" target="_blank" class="btn-gold btn-small">Add to Calendar</a>
+          </div>
+        </div>
+
+        <div class="event-card">
+          <p class="event-date">28 JUNE 2026</p>
+          <h3 class="event-name">Haldi Ceremony</h3>
+          <p class="event-time">9:00 PM Onwards</p>
+          <p class="event-venue">Kalpavraksha House<br>Pallamajal, Kallagudde,<br>Bantwal</p>
+          <div class="event-buttons">
+            <a href="https://maps.google.com/?q=Kalpavraksha+House+Bantwal" target="_blank" class="btn-gold btn-small">Directions</a>
+            <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Haldi+Ceremony&dates=20260628T153000Z/20260628T180000Z&location=Kalpavraksha+House+Bantwal" target="_blank" class="btn-gold btn-small">Add to Calendar</a>
+          </div>
+        </div>
+
+        <div class="event-card">
+          <p class="event-date">29 JUNE 2026</p>
+          <h3 class="event-name">Reception Ceremony</h3>
+          <p class="event-time">9:00 PM Onwards</p>
+          <p class="event-venue">Kalpavraksha House<br>Pallamajal, Kallagudde,<br>Bantwal</p>
+          <div class="event-buttons">
+            <a href="https://maps.google.com/?q=Kalpavraksha+House+Bantwal" target="_blank" class="btn-gold btn-small">Directions</a>
+            <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Reception+Ceremony&dates=20260629T153000Z/20260629T180000Z&location=Kalpavraksha+House+Bantwal" target="_blank" class="btn-gold btn-small">Add to Calendar</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ============================================
+       SECTION 5: FOOTER
+       ============================================ -->
+  <footer class="footer-section">
+    <p class="footer-thankyou">Thank you for being part of our story</p>
+    <p class="footer-names">Abhinand & Ashwathi</p>
+    <p class="footer-brand">Made with ♥ by Pixora24</p>
+  </footer>
+
+</div>
+
+<script src="scratch.js"></script>
+</body>
+</html>
